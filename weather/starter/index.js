@@ -1,6 +1,6 @@
 window.onload = function() {
   var url = 'https://api.darksky.net/forecast/' +
-    'e67140f18d02b756dd728ddd25febcda/42.59036,70.82219';
+    'e67140f18d02b756dd728ddd25febcda/42.59036,-70.82219';
   getWeatherData(url, handleData);
 }
 
