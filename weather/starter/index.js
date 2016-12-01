@@ -22,8 +22,8 @@ function handleData(data) {
   var customHTML;
 
   var currently = data.currently;
-  var currentlyHTML = '<div id="currently">' + 
-    '<h1>Currently</h1>' + 
+  var currentlyHTML = '<div id="currently">' +
+    '<h1>Currently</h1>' +
     '<ul>' +
     '<li>Temperature: ' + currently.temperature + '</li>' +
     '<li>Humidity: ' + currently.humidity + '</li>' +
