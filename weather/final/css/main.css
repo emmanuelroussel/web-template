@@ -1,0 +1,50 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container-currently {
+  display: flex;
+  justify-content: center;
+}
+
+.container-currently li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.container-currently i {
+  display: inline;
+  font-size: 5em;
+}
+
+.temperature-currently {
+  font-size: 4em;
+  margin-left: 0.5em;
+  align-self: center;
+  font-weight: bold;
+}
+
+.day {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.day i {
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+.loading {
+  margin-top: 10em;
+}
