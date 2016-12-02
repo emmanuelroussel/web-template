@@ -44,8 +44,8 @@ function handleData(data) {
         '<h3>' + getDayFromNow(today, i) + '</h3>' +
         '<ul>' +
         '<li><i class="wi ' + getIconName(day.icon) + '"></i></li>' +
-        '<li>Min: ' + day.temperatureMin.toFixed(0) + '&deg;</li>' +
-        '<li>Max: ' + day.temperatureMax.toFixed(0) + '&deg;</li>' +
+        '<li><div>Min: ' + day.temperatureMin.toFixed(0) + '&deg;</div>' +
+        '<div>Max: ' + day.temperatureMax.toFixed(0) + '&deg;</div></li>' +
         '</ul>' +
         '</div>';
     }).join('') +
